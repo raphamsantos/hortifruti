@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    
+    background-color: #f66000;
+}
+
+h1 {
+    font-size: min(4em, 10vw);
+  }
+h2{
+    width: 50vh;
+	font-size: min(3em, 7vw);
+}
+h3 {
+    font-size: min(2em, 8vw);
+	margin-bottom: 20px;
+}
+  
+  h3 {
+    color: #ffff;
+    font-size: 35px;
+    padding-bottom: 5vh;
+}
+
+
+section{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    min-width:300px;
+}
+
+section div p {
+    text-align: center;
+    font-size: 24px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+}
+
+section div img {
+    width: 80h;
+  }
+
+aside {
+  position: absolute;
+  top: 20vh;
+  right: 2vw;
+  height: 90vh;
+  width: 22vw;
+  background-color: #f7e0ce;
+  border-radius: 20px;
+}
+aside section {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 22vw;
+  height: 74vh;
+}
+aside section .carrinho {
+  position: relative;
+  top: 0;
+  background-color: #f3ad78;
+}
+.carrinho p:nth-child(1) {
+  font-size: 20px;
+  margin: 10px;
+}
+.carrinho p:nth-child(2) {
+  font-size: 50px;
+}
+aside section .quantidade {
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+  background-color: #498a0c;
+  height: 14vh;
+  border-radius: 100px 100px 100px 100px;
+}
+.quantidade p {
+  font-size: 35px;
+  border-radius: 100%;
+  background-color: black;
+  color: #498a0c;
+  width: 4vw;
+  height: 8vh;
+  border: solid;
+  cursor: pointer;
+}
